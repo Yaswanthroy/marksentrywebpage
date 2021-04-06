@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>marks memo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="Keywords" content="html, css, html tables, table">
+        <meta name="Description" content="html table">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <style>
+            input::-webkit-outer-spin-button,
+            input::-webkit-inner-spin-button {
+              -webkit-appearance: none;
+              margin: 0;
+            }
+            input[type=number] {
+              -moz-appearance: textfield;
+            }
+            </style>
+    </head>
+    <body>
+        <img style="margin-left: 525px;width: 400px;height: 200px;" border="2" src="images/logo.jpg" alt="AMRITA" />
+        <h1 style="text-align: center;">Marky Entry</h1>
+        <div class="styling">
+            <h2>Name :  <input type="name" class="ok1" name="nam" id="nam" onchange="variable(nam)"/></h2>
+            <h2>Roll.No : <input type="name" class="ok1" name="roll" id="roll" onchange="variable1(roll)"/></h2><br>
+        <table border="1" align="center" width="100%">
+            <thead>
+            <tr>
+                <th>SUBJECT</th>
+                <th>P1</th>
+                <th>P2</th>
+                <th>CA</th>
+                <th>ENDSEM</th>
+                <th>TOTAL</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                  <td>SUB1</td>
+                  <td><input type="number" class="ok" name="a" id="a" onchange="myFunction1(a)"/></td>
+                  <td><input type="number" class="ok" name="b" id="b" onchange="myFunction1(b)"/></td>
+                  <td><input type="number" class="ok" name="c" id="c" onchange="myFunction1(c)"/></td>
+                  <td><input type="number" class="ok" name="d" id="d" onchange="myFunction1(d)"/></td>
+                  <td id="sub1" style="font-size: larger;font-weight: 200;"></td>
+                </tr>
+                <tr>
+                    <td>SUB2</td>
+                    <td><input type="number" class="ok" name="e" id="e" onchange="myFunction2(e)"/></td>
+                    <td><input type="number" class="ok" name="f" id="f" onchange="myFunction2(f)"/></td>
+                    <td><input type="number" class="ok" name="g" id="g" onchange="myFunction2(g)"/></td>
+                    <td><input type="number" class="ok" name="h" id="h" onchange="myFunction2(h)"/></td>
+                    <td id="sub2" style="font-size: larger;font-weight: 200;"></td>
+                  </tr>
+                  <tr>
+                    <td>SUB3</td>
+                    <td><input type="number" class="ok" name="i" id="i" onchange="myFunction3(i)"/></td>
+                    <td><input type="number" class="ok" name="j" id="j" onchange="myFunction3(j)"/></td>
+                    <td><input type="number" class="ok" name="k" id="k" onchange="myFunction3(k)"/></td>
+                    <td><input type="number" class="ok" name="l" id="l" onchange="myFunction3(l)"/></td>
+                    <td id="sub3" style="font-size: larger;font-weight: 200;"></td>
+                  </tr>
+                  <tr>
+                    <td>SUB4</td>
+                    <td><input type="number" class="ok" name="m" id="m" onchange="myFunction4(m)"/></td>
+                    <td><input type="number" class="ok" name="n" id="n" onchange="myFunction4(n)"/></td>
+                    <td><input type="number" class="ok" name="o" id="o" onchange="myFunction4(o)"/></td>
+                    <td><input type="number" class="ok" name="p" id="p" onchange="myFunction4(p)"/></td>
+                    <td id="sub4" style="font-size: larger;font-weight: 200;"></td>
+                  </tr>
+                  <tr>
+                    <td>SUB5</td>
+                    <td><input type="number" class="ok" name="q" id="q" onchange="myFunction5(q)"/></td>
+                    <td><input type="number" class="ok" name="r" id="r" onchange="myFunction5(r)"/></td>
+                    <td><input type="number" class="ok" name="s" id="s" onchange="myFunction5(s)"/></td>
+                    <td><input type="number" class="ok" name="t" id="t" onchange="myFunction5(t)"/></td>
+                    <td id="sub5" style="font-size: larger;font-weight: 200;"></td>
+                  </tr>
+                  <tr>
+                    <td>SUB6</td>
+                    <td><input type="number" class="ok" name="u" id="u" onchange="myFunction6(u)"/></td>
+                    <td><input type="number" class="ok" name="v" id="v" onchange="myFunction6(v)"/></td>
+                    <td><input type="number" class="ok" name="w" id="w" onchange="myFunction6(w)"/></td>
+                    <td><input type="number" class="ok" name="x" id="x" onchange="myFunction6(x)"/></td>
+                    <td id="sub6" style="font-size: larger;font-weight: 200;"></td>
+                  </tr>
+                </tbody>
+        </table><br>
+        <h2>Grace Marks : <input type="name" name="y" id="y" onchange="gracemarks(y)" style="width: 30px;font-size: large;font-weight: 100;line-height: 20px;" /></h2>
+        <a href="result.html" target="_blank"><button type="submit" style="font-size: 25px;margin-left: 300px;">Submit</button></a>
+    </div>
+        <script type="text/javascript" src="javascript/sum.js"></script>
+    </body>
+    </html>
