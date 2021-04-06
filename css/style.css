@@ -1,0 +1,36 @@
+body{
+    padding: 25px;
+    background-color: rgba(35,36,45,255);
+    color:white;
+  }
+.styling{
+    width: 720px;
+    height: 440px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    border-radius: 12px;
+    font-family: Lato;
+}
+.styling h2{
+  text-align: center;
+}
+.ok{
+    border: none; 
+    border-width: 0px; 
+    box-shadow: none;
+    line-height: 20px;
+    width: 30px;
+    font-size: large;
+    font-weight: 100;
+}
+.ok1{
+  width: 150px;
+  font-size: large;
+  font-weight: 100;
+  line-height: 20px;
+}
+td, th {
+    padding: 10px;
+  }
