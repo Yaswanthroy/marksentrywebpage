@@ -3,6 +3,9 @@ body{
     background-color: rgba(35,36,45,255);
     color:white;
   }
+h1 {
+    font-size: 60px;
+  }
 .styling{
     width: 720px;
     height: 440px;
