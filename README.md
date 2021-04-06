@@ -1,2 +1,2 @@
 # marksmemowebpage
-webpage for students marks
+webpage to entry marks
