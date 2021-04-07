@@ -8,4 +8,3 @@ document.getElementById("marks").innerHTML = "Grace Marks : "+gracemarks;
 for(let i=0;i<result.length;i++){
     document.getElementById(i).innerHTML = result[i];
 }
-localStorage.clear();
