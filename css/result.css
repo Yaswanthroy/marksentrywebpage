@@ -1,0 +1,20 @@
+body {
+    background-color: rgba(35,36,45,255);
+    color:white;
+}
+.styling{
+    width: 720px;
+    height: 440px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 40px;
+    border-radius: 12px;
+    font-family: Lato;
+}
+.styling h1{
+  text-align: center;
+}
+td, th {
+    padding: 10px;
+  }
