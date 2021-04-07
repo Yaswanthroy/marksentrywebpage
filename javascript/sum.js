@@ -128,6 +128,7 @@ function myFunction1(val,check) {
       alert("Should be less than 20");
     }
     else{
+    localStorage.setItem("grace", parseInt(grace));
     total.push(sub1,sub2,sub3,sub4,sub5,sub6);
     total[total.indexOf(Math.min.apply(Math, total))]+=parseInt(grace);
     localStorage.setItem("output", JSON.stringify(total));

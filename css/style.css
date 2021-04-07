@@ -20,7 +20,7 @@ body{
   text-align: center;
 }
 .ok{
-  color: white;
+    color: white;
     background-color: rgba(35,36,45,255);
     border: none; 
     border-width: 0px; 
@@ -31,6 +31,7 @@ body{
     font-weight: 100;
 }
 .ok1{
+  box-shadow: none;
   border-width: 0.5px;
   border-radius: 2.7px;
   color: white;

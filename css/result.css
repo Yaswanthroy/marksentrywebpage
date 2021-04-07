@@ -8,7 +8,7 @@ body {
     margin: 0 auto;
     padding-left: 32px;
     padding-right: 32px;
-    padding-top: 40px;
+    padding-top: 35px;
     border-radius: 12px;
     font-family: Lato;
 }
@@ -17,4 +17,11 @@ body {
 }
 td, th {
     padding: 10px;
+  }
+.ok{ 
+    box-shadow: none;
+    line-height: 35px;
+    width: 120px;
+    font-size: large;
+    font-weight: 100;
   }
