@@ -1,3 +1,9 @@
+document.addEventListener('keydown', function(e) {
+    switch (e.keyCode) {
+        case 37:
+            location.href = "index.html";
+    }
+});
 var name = localStorage.getItem("name");
 var rollno = localStorage.getItem("rollno"); 
 var gracemarks = localStorage.getItem("grace"); 

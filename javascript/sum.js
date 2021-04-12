@@ -8,118 +8,166 @@ function variable(val) {
     localStorage.setItem("rollno", rollno);
   }
 function myFunction1(val,check) {
-    var c=val.value;
-    if ((check=='a' || check =='b') && parseInt(c)>15){
+    var c=parseInt(val.value);
+    if (check=='a' || check =='b'){
+      c*=0.3;
+      if(c>15){
+        document.getElementById(check).value="";
+        alert("Should be less than 50");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    else if(check=='c' && c>20){
       document.getElementById(check).value="";
-      alert("Should be less than 15");
-    }
-    else if(check=='c' && parseInt(c)>20){
-      document.getElementById(check).value="";
-      alert("Should be less than 20");
-    }
-    else if(check=='d' && parseInt(c)>50){
-      document.getElementById(check).value="";
-      alert("Should be less than 50");
-    }
-    else{
-      sub1+=parseInt(c);
-      document.getElementById("sub1").innerHTML = sub1;
-      }
+      alert("Should be less than 20");c=0;
+  }
+    else if(check=='d'){
+      c*=0.5;
+      if(c>50){
+        document.getElementById(check).value="";
+        alert("Should be less than 100");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    sub1+=Math.round(c);
+    document.getElementById("sub1").innerHTML = sub1;
   }
   function myFunction2(val,check) {
-    var c=val.value;
-    if ((check=='e' || check =='f') && parseInt(c)>15){
+    var c=parseInt(val.value);
+    if (check=='e' || check =='f'){
+      c*=0.3;
+      if(c>15){
+        document.getElementById(check).value="";
+        alert("Should be less than 50");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    else if(check=='g' && c>20){
       document.getElementById(check).value="";
-      alert("Should be less than 15");
+      alert("Should be less than 20");c=0;
     }
-    else if(check=='g' && parseInt(c)>20){
-      document.getElementById(check).value="";
-      alert("Should be less than 20");
-    }
-    else if(check=='h' && parseInt(c)>50){
-      document.getElementById(check).value="";
-      alert("Should be less than 50");
-    }
-    else{
-      sub2+=parseInt(c);
-      document.getElementById("sub2").innerHTML = sub2;
-    }
+    else if(check=='h'){
+      c*=0.5;
+      if(c>50){
+        document.getElementById(check).value="";
+        alert("Should be less than 100");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    sub2+=Math.round(c);
+    document.getElementById("sub2").innerHTML = sub2;
   }
   function myFunction3(val,check) {
-    var c=val.value;
-    if ((check=='i' || check =='j') && parseInt(c)>15){
+    var c=parseInt(val.value);
+    if (check=='i' || check =='j'){
+      c*=0.3;
+      if(c>15){
+        document.getElementById(check).value="";
+        alert("Should be less than 50");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    else if(check=='k' && c>20){
       document.getElementById(check).value="";
-      alert("Should be less than 15");
+      alert("Should be less than 20");c=0;
     }
-    else if(check=='k' && parseInt(c)>20){
-      document.getElementById(check).value="";
-      alert("Should be less than 20");
-    }
-    else if(check=='l' && parseInt(c)>50){
-      document.getElementById(check).value="";
-      alert("Should be less than 50");
-    }
-    else{
-      sub3+=parseInt(c);
-      document.getElementById("sub3").innerHTML = sub3;
-    }
+    else if(check=='l'){
+      c*=0.5;
+      if(c>50){
+        document.getElementById(check).value="";
+        alert("Should be less than 100");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    sub3+=Math.round(c);
+    document.getElementById("sub3").innerHTML = sub3;
   }
   function myFunction4(val,check) {
-    var c=val.value;
-    if ((check=='m' || check =='n') && parseInt(c)>15){
+    var c=parseInt(val.value);
+    if (check=='m' || check =='n'){
+      c*=0.3;
+      if(c>15){
+        document.getElementById(check).value="";
+        alert("Should be less than 50");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    else if(check=='o' && c>20){
       document.getElementById(check).value="";
-      alert("Should be less than 15");
+      alert("Should be less than 20");c=0;
     }
-    else if(check=='o' && parseInt(c)>20){
-      document.getElementById(check).value="";
-      alert("Should be less than 20");
-    }
-    else if(check=='p' && parseInt(c)>50){
-      document.getElementById(check).value="";
-      alert("Should be less than 50");
-    }
-    else{
-      sub4+=parseInt(c);
-      document.getElementById("sub4").innerHTML = sub4;
-    }
+    else if(check=='p'){
+      c*=0.5;
+      if(c>50){
+        document.getElementById(check).value="";
+        alert("Should be less than 100");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    sub4+=Math.round(c);
+    document.getElementById("sub4").innerHTML = sub4;
   }
   function myFunction5(val,check) {
-    var c=val.value;
-    if ((check=='q' || check =='r') && parseInt(c)>15){
+    var c=parseInt(val.value);
+    if (check=='q' || check =='r'){
+      c*=0.3;
+      if(c>15){
+        document.getElementById(check).value="";
+        alert("Should be less than 50");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    else if(check=='s' && c>20){
       document.getElementById(check).value="";
-      alert("Should be less than 15");
+      alert("Should be less than 20");c=0;
     }
-    else if(check=='s' && parseInt(c)>20){
-      document.getElementById(check).value="";
-      alert("Should be less than 20");
-    }
-    else if(check=='t' && parseInt(c)>50){
-      document.getElementById(check).value="";
-      alert("Should be less than 50");
-    }
-    else{
-      sub5+=parseInt(c);
-      document.getElementById("sub5").innerHTML = sub5;
-    }
+    else if(check=='t'){
+      c*=0.5;
+      if(c>50){
+        document.getElementById(check).value="";
+        alert("Should be less than 100");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    sub5+=Math.round(c);
+    document.getElementById("sub5").innerHTML = sub5;
   }
   function myFunction6(val,check) {
-    var c=val.value;
-    if ((check=='u' || check =='v') && parseInt(c)>15){
+    var c=parseInt(val.value);
+    if (check=='u' || check =='v'){
+      c*=0.3;
+      if(c>15){
+        document.getElementById(check).value="";
+        alert("Should be less than 50");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    else if(check=='w' && c>20){
       document.getElementById(check).value="";
-      alert("Should be less than 15");
+      alert("Should be less than 20");c=0;
     }
-    else if(check=='w' && parseInt(c)>20){
-      document.getElementById(check).value="";
-      alert("Should be less than 20");
-    }
-    else if(check=='x' && parseInt(c)>50){
-      document.getElementById(check).value="";
-      alert("Should be less than 50");
-    }
-    else{
-      sub6+=parseInt(c);
-      document.getElementById("sub6").innerHTML = sub6;
-    }
+    else if(check=='x'){
+      c*=0.5;
+      if(c>50){
+        document.getElementById(check).value="";
+        alert("Should be less than 100");
+        pass;
+      }else{
+      document.getElementById(check).value=c;}
+  }
+    sub6+=Math.round(c);
+    document.getElementById("sub6").innerHTML = sub6;
   }
   function gracemarks(val) {
     grace=val.value;
@@ -134,3 +182,11 @@ function myFunction1(val,check) {
     localStorage.setItem("output", JSON.stringify(total));
     }
   }
+  document.addEventListener('keydown', function(e) {
+    switch (e.keyCode) {
+        case 39:
+          if(grace!=0){
+          location.href = "result.html";}
+            break;
+    }
+});
